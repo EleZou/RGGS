@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Outputs and datasets
+output/
+data/
+tmp/
+checkpoint/
+Depth-Anything-V2/checkpoints/
+mast3r/checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.dll
+*.dylib
+
+# CMake / extension builds
+2d-gaussian-splatting/submodules/tetra-triangulation/CMakeFiles/
+2d-gaussian-splatting/submodules/tetra-triangulation/_deps/
+2d-gaussian-splatting/submodules/tetra-triangulation/cmake_install.cmake
+2d-gaussian-splatting/submodules/tetra-triangulation/CMakeCache.txt
+2d-gaussian-splatting/submodules/tetra-triangulation/Makefile
+2d-gaussian-splatting/submodules/simple-knn/build/
+
+# Logs
+*.log
+
